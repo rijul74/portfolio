@@ -405,17 +405,14 @@ footer {
   .hero-content{
     min-height: 60vh;
   }
-  .text_area p{
-    font-size: 3.4vw;
-  }
   .img_area img{
     height: 37vw;
     width: 37vw;
   }
   .btns{
-    height: 6vw;
-  width: 18vw;
-  font-size: 2vw;
+    height: 8vw;
+    width:25vw;
+    font-size: 2.5vw;
   }
   .nav-links {
     display: none;
@@ -448,25 +445,29 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
+  .text_area{
+    width: 80%;
+  }
   .text_area p {
   font-size: 2.8vw; 
   text-align: center; 
+  padding: 0;
   width: 100%;
 }
   .about{
-    height: 55vw;
+    min-height: 75vw;
   }
   .about h3{
-    height: 6vw;
-    width: 15vw;
-    border-radius: 3vw;
-    font-size: 2vw;
+    height: 8vw;
+    width: 19vw;
+    border-radius: 5vw;
+    font-size: 2.5vw;
   }
   .about p{
     text-align: justify;
     width: 80%;
-    font-size: 2.7vw;
-    line-height: 4vw;
+    font-size: 3.7vw;
+    line-height: 5vw;
     letter-spacing: 0.1vw;
     font-family: "New Amsterdam", system-ui;
   }
@@ -479,10 +480,10 @@ footer {
     align-items: center;
   }
   .skills h2{
-    height: 6vw;
-    width: 15vw;
-    border-radius: 3vw;
-    font-size: 2vw;
+    height: 8vw;
+    width: 19vw;
+    border-radius: 5vw;
+    font-size: 2.5vw;
   }
   .skills-container {
     display: flex;
@@ -508,10 +509,10 @@ footer {
     object-fit: cover;
   }
   .projects h2{
-    height: 6vw;
-    width: 15vw;
-    border-radius: 3vw;
-    font-size: 2vw;
+    height: 8vw;
+    width: 19vw;
+    border-radius: 5vw;
+    font-size: 2.5vw;
   }
   .projects-container {
     min-height: 50vw;
@@ -542,9 +543,10 @@ footer {
     
   }
   .contact h2{
-    height: 6vw;
-    width: 15vw;
-    font-size: 2vw;
+    height: 8vw;
+    width: 19vw;
+    border-radius: 5vw;
+    font-size: 2.5vw;
   }
   .contact p{
     width: 80%;
