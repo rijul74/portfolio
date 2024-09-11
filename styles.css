@@ -448,6 +448,11 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
+  .text_area p {
+  font-size: 2.8vw; 
+  text-align: center; 
+  width: 100%;
+}
   .about{
     height: 55vw;
   }
