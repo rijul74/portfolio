@@ -307,7 +307,6 @@ nav {
   width: 30vw;
   background: white;
   border-radius: 8px;
-  overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   display: flex;
@@ -320,22 +319,30 @@ nav {
   transform: scale(1.05);
 }
 
-.project img {
+.image_project {
   width: 100%;
-  height: 15vw;
+  height: 40%;
+}
+.image_project img{
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
-
-.project h3 {
-  margin: 1.5vw 0;
-  font-size: 1.5vw;
+.text_project{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-
-.project p {
-  padding: 0 1.5vw 1.5vw;
-  color: #555;
+.text_project h3{
+  font-size: 1.4vw;
+}
+.text_project p{
+  width: 90%;
   text-align: justify;
-  font-size: 1.1vw;
+  font-size: 1vw;
 }
 .github{
   height: 3vw;
@@ -500,41 +507,16 @@ footer {
     font-size: 2vw;
     letter-spacing: 0.2vw;
   }
-  .projects{
-    min-height: 50vh;
-  }
-  .project img {
-    width: 100%;
-    height: 20vw;
-    object-fit: cover;
-  }
-  .projects h2{
-    height: 8vw;
-    width: 19vw;
-    border-radius: 5vw;
-    font-size: 2.5vw;
-  }
-  .projects-container {
-    min-height: 50vw;
-    width: 80%;
-  }
-  
-  .project {
-    height: 65vw;
-    min-height: 30vw;
-    width: 55vw;
-  }
-  .project h3 {
-    margin: 2.5vw 0;
-    font-size: 2.8vw;
-  }
-  
-  .project p {
-    padding: 0 2.5vw 2.5vw;
-    color: #555;
-    text-align: justify;
+ .project{
+  height: 60vw;
+  width: 70%;
+ }
+   .text_project h3{
+    font-size: 2.2vw;
+   }
+   .text_project p{
     font-size: 2vw;
-  }
+   }
   .github{
     height: 4vw;
     width: 16vw;
